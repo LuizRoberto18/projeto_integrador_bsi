@@ -62,7 +62,7 @@ O Wiki será o espaço oficial para:
 | **⚙ Dev Back-end** | Jeremias | [`@Eujeremias`](https://github.com/Eujeremias) |
 | **⚙ Dev Back-end** | Pablo | [`@pablohcff`](https://github.com/pablohcff) |
 | **🎨 Dev Front-end** | Robert | - |
-| **🎨 Dev Front-end** | Werython | - |
+| **🎨 Dev Front-end** | Werython | [`@Werython-dev`](https://github.com/Werython-dev) |
 | **🧪 Tester** | Sarah | [`@sarah-amorim`](https://github.com/sarah-amorim) |
 | **✨ UI/UX** | Ledayara | [`@lêdayara`](https://github.com/lêdayara) |
 
