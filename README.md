@@ -65,6 +65,7 @@ O Wiki será o espaço oficial para:
 | **🎨 Dev Front-end** | Werython | [`@Werython-dev`](https://github.com/Werython-dev) |
 | **🧪 Tester** | Sarah | [`@sarah-amorim`](https://github.com/sarah-amorim) |
 | **✨ UI/UX** | Ledayara | [`@lêdayara`](https://github.com/lêdayara) |
+| **✨ UI/UX** | Pedro | [`@pedr0cha`](https://github.com/pedr0cha) |
 
 ---
 
