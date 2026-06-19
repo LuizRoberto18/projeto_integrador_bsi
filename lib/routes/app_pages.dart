@@ -18,27 +18,15 @@ import 'app_routes.dart';
 
 class AppPages {
   static final routes = [
-    GetPage(name: AppRoutes.splash, page: () => const SplashScreen()),
-    GetPage(name: AppRoutes.onboarding, page: () => const OnboardingScreen()),
-    GetPage(
-      name: AppRoutes.login,
-      page: () => const LoginScreen(),
-      binding: AuthBinding(),
-    ),
-    GetPage(
-      name: AppRoutes.home,
-      page: () => const HomeScreen(),
-      binding: HomeBinding(),
-    ),
-    GetPage(
-      name: AppRoutes.explore,
-      page: () => const ExploreScreen(),
-      binding: LocationBinding(),
-    ),
-    GetPage(name: AppRoutes.detail, page: () => const LocationDetailScreen()),
-    GetPage(name: AppRoutes.review, page: () => const ReviewScreen()),
-    GetPage(name: AppRoutes.favorites, page: () => const FavoritesScreen()),
-    GetPage(name: AppRoutes.profile, page: () => const ProfileScreen()),
-    GetPage(name: AppRoutes.about, page: () => const AboutScreen()),
+    GetPage(name: AppRoutes.splash,      page: () => const SplashScreen()),
+    GetPage(name: AppRoutes.onboarding,  page: () => const OnboardingScreen()),
+    GetPage(name: AppRoutes.login,       page: () => const LoginScreen(),       binding: AuthBinding()),
+    GetPage(name: AppRoutes.home,        page: () => const HomeScreen(),        binding: HomeBinding()),
+    GetPage(name: AppRoutes.explore,     page: () => const ExploreScreen(),     binding: LocationBinding()),
+    GetPage(name: AppRoutes.detail,      page: () => const LocationDetailScreen()),
+    GetPage(name: AppRoutes.review,      page: () => const ReviewScreen()),
+    GetPage(name: AppRoutes.favorites,   page: () => const FavoritesScreen()),
+    GetPage(name: AppRoutes.profile,     page: () => const ProfileScreen()),
+    GetPage(name: AppRoutes.about,       page: () => const AboutScreen()),
   ];
 }
