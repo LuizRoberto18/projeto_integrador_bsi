@@ -3,5 +3,7 @@ import '../controllers/location_controller.dart';
 
 class LocationBinding extends Bindings {
   @override
-  void dependencies() {}
+  void dependencies() {
+    Get.lazyPut(() => LocationController());
+  }
 }
