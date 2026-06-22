@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   // Brand colors
-  static const primary = Color(0xFF1D4ED8); // blue-700
+  static const primary   = Color(0xFF1D4ED8); // blue-700
   static const secondary = Color(0xFF059669); // green-600
-  static const accent = Color(0xFFF59E0B); // amber-500
-  static const error = Color(0xFFDC2626); // red-600
+  static const accent    = Color(0xFFF59E0B); // amber-500
+  static const error     = Color(0xFFDC2626); // red-600
   static const background = Color(0xFFF1F5F9);
-  static const surface = Color(0xFFFFFFFF);
+  static const surface   = Color(0xFFFFFFFF);
 
   static ThemeData get lightTheme => ThemeData(
     useMaterial3: true,
@@ -32,7 +32,7 @@ class AppTheme {
         color: Color(0xFF1E293B),
       ),
     ),
-    cardTheme: CardThemeData(
+    cardTheme: CardTheme(
       color: surface,
       elevation: 1,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
@@ -43,11 +43,7 @@ class AppTheme {
         foregroundColor: Colors.white,
         minimumSize: const Size(double.infinity, 48),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-        textStyle: const TextStyle(
-          fontFamily: 'Lexend',
-          fontWeight: FontWeight.w600,
-          fontSize: 15,
-        ),
+        textStyle: const TextStyle(fontFamily: 'Lexend', fontWeight: FontWeight.w600, fontSize: 15),
       ),
     ),
     outlinedButtonTheme: OutlinedButtonThemeData(
@@ -62,18 +58,9 @@ class AppTheme {
       filled: true,
       fillColor: surface,
       contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-      border: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(12),
-        borderSide: const BorderSide(color: Color(0xFFE2E8F0)),
-      ),
-      enabledBorder: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(12),
-        borderSide: const BorderSide(color: Color(0xFFE2E8F0)),
-      ),
-      focusedBorder: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(12),
-        borderSide: const BorderSide(color: primary, width: 2),
-      ),
+      border: OutlineInputBorder(borderRadius: BorderRadius.circular(12), borderSide: const BorderSide(color: Color(0xFFE2E8F0))),
+      enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(12), borderSide: const BorderSide(color: Color(0xFFE2E8F0))),
+      focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(12), borderSide: const BorderSide(color: primary, width: 2)),
     ),
     bottomNavigationBarTheme: const BottomNavigationBarThemeData(
       backgroundColor: surface,
