@@ -32,7 +32,7 @@ class AppTheme {
         color: Color(0xFF1E293B),
       ),
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: surface,
       elevation: 1,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
