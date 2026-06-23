@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: dockerfile
+    image: projeto-integrador-web:latest
+    ports:
+      - "8081:80"
+    restart: unless-stopped
+
+  proxy:
+    build:
+      context: inclui-map-docker
+      dockerfile: Dockerfile
+    image: inclui-map-proxy:latest
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    depends_on:
+      - app

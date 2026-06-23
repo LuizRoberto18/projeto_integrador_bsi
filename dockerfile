@@ -2,9 +2,14 @@
 FROM ghcr.io/cirruslabs/flutter:stable AS builder
 
 WORKDIR /app
+
+# Copia apenas o pubspec para aproveitar cache de dependências
+COPY pubspec.yaml ./
+RUN flutter pub get
+
+# Copia o restante do projeto
 COPY . .
 
-RUN flutter pub get
 RUN flutter build web --release
 
 # Estágio 2: Serve com Nginx
